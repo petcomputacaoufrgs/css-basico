@@ -1,0 +1,28 @@
+ul {
+    font-size: x-large;
+}
+
+p {
+    font-size: x-large;
+    color: red; /* (0, 0, 0, 1) */
+}
+
+.class {
+    color: blue; /* (0, 0, 1, 0) */
+}
+
+.class_2 {
+    color: cyan; /* (0, 0, 1, 0) */
+}
+
+.class.class_2 {
+    color: brown; /* (0, 0, 2, 0) */
+}
+
+#id {
+    color: violet; /* (0, 1, 0, 0) */
+}           
+
+p { 
+    color: red !important; /* (0, 0, 0, 1) */
+}

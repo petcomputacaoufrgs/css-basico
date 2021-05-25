@@ -1,0 +1,23 @@
+.link_estiloso {
+    font-size: xx-large;
+}
+
+.link_estiloso:link {
+    color: red;
+}
+
+.link_estiloso:visited {
+    color: green;
+}
+
+.link_estiloso:hover {
+    color: blue;
+}
+
+.link_estiloso:focus {
+    color: cyan;
+}
+
+.link_estiloso:active { 
+    color: violet;
+}    

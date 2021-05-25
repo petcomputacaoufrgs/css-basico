@@ -1,0 +1,56 @@
+:root {
+    font-size: 2px;
+}
+
+body {
+    font-size: 1px;
+}
+
+h1, h2 {
+    font-size: x-large;
+}
+
+p {
+    font-size: medium;
+}
+
+div {
+    background-color: cyan;
+    margin-bottom: 5px;
+}
+
+.box_1 {
+    width: 2cm;
+    height: 2cm;
+}
+
+.box_2 { 
+    width: 80em;
+    height: 80em;
+}
+
+.box_3 {
+    width: 80px;
+    height: 80px;
+}
+
+.box_4 {
+    width: 40rem;
+    height: 40rem;
+}
+
+.box_5 {
+    width: 5vw;
+    height: 5vh;
+}
+
+.box_6_pai {
+    width: 80px;
+    height: 80px;
+}
+
+.box_6_filho {
+    width: 100%;
+    height: 50%;
+    background-color: red;
+}

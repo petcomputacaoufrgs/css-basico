@@ -1,0 +1,11 @@
+p {
+    color: red;
+}
+
+p#element_id {
+    font-size: xx-large;
+}
+
+p#element_id.element_class {
+    font-weight: bold;
+}

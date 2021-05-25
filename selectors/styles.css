@@ -1,0 +1,17 @@
+h2 {
+    color: red;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#element_id {
+    color: red;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.element_class {
+    color: red;
+    font-size: xx-large;
+    font-weight: bold;
+}

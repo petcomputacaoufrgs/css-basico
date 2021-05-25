@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Uma página de um dino feliz">
+    <meta name="author" content="Dino Dev">
+    <link rel="shortcut icon" href="../dinosaur.ico" />
+    <link rel="stylesheet" href="./styles.css">
+    <title>Dinooo</title>
+</head>
+
+<body>
+    <h1>CSS: Especificidade</h1>
+    <h2>Diversas definições de css podem ser efetuadas sobre o mesmo elemento.</h2>
+    <h2>O navegador seleciona os valores de cada atributo sobre um elemento baseado em regras de especificidade.</h2>
+    <h2>A especificidade é calculada por uma lista com quatro atributos priorizados da esquerda para a direita, (a,b,c,d), onde:</h2>
+    <ul>
+        <li>a: estilo inline</li>
+        <li>b: id</li>
+        <li>c: classe, pseudo classe e atributo</li>
+        <li>d: elemento, pseudo elemento</li>
+    </ul>
+    <h2>O atributo !important sobrepõe a especificidade</h2>
+    <p id="id" class="class class_2" style="color: chartreuse">Texto exemplo</p>
+    <p><a href="../margin/index.html">Próximo</a></p>
+</body>
+
+</html>
